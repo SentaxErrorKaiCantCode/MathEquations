@@ -87,8 +87,8 @@ public class Equations {
                 System.out.println(divided / divider);
         } 
             public static void perimeterform (double length, double width){
-                double length * 2 = lengthx2;
-                double width * 2 = widthx2;
-                System.out.println(lengthx2 + widthx2)
+                double lengthx2 = length * 2;
+                double widthx2 = width * 2;
+                System.out.println(lengthx2 + widthx2);
         }
 }
