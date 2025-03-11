@@ -11,6 +11,9 @@ public class Main extends Equations  {
 
                 // Triangles
                         // pagther(0, 0);
+                        // trianglearea(0, 0);
+                        // interiorangles(0);
+                        // exteriorangles(0);
                 
                 // Circumference & Perimeter 
                         // circlecircumference(0);

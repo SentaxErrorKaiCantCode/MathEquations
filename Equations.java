@@ -91,4 +91,14 @@ public class Equations {
                 double widthx2 = width * 2;
                 System.out.println(lengthx2 + widthx2);
         }
-}
+            public static void interiorangles (int sides){
+                int n = sides;
+                int sum = (n - 2) * 180;
+                System.out.println(sum);
+        }
+            public static void exteriorangles (int sides){
+                int n = sides;
+                int sum = 360 / n;
+                System.out.println(sum);
+        }
+    }
