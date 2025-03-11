@@ -1,5 +1,6 @@
 public class Equations {
     private static final double PI = 3.14;
+    
         static void slopeFormula(double X1, double X2, double Y1, double Y2) {
             // plug in your variables in the corosponding spot 
                 double x1 = X1;
@@ -8,20 +9,20 @@ public class Equations {
                 double y2 = Y2;
                 System.out.println(y2 - y1 / x2 - x1);
         }
-        static void slopeIntercept (double slope, double numx, double intercept) {
+            static void slopeIntercept (double slope, double numx, double intercept) {
             // plug in your variables in the corosponding spot 
                 double m =  slope;
                 double x =  numx;
                 double b = intercept;
                 System.out.println(m*x+b);
-            }
-        static void riseoverrun (double numrise, double numrun) {
+        }
+            static void riseoverrun (double numrise, double numrun) {
             // plug in your variables/numbers in the corosponding spot
                 double rise = numrise ;
                 double run = numrun; 
                 double simp = (rise/run);
                 System.out.println(simp);
-            }
+        }
             public static void pagther(int side1 , int side2) {
             // plug in your variables/numbers in the corosponding spot
                 int a = side2;
@@ -74,29 +75,37 @@ public class Equations {
                 System.out.println(add);
         }
             public static void volumecylinder(double radius, double hight){
+            //plug in your variables/numbers in the corosponding spot
+
                 int r2 = (int) Math.pow (radius, 2);
                 System.out.println(PI * r2 * hight);
         } 
             public static void subtraction (double big, double small){
+            //plug in your variables/numbers in the corosponding spot
                 System.out.println(big - small);
         }
             public static void multiplication (int first, int second){
+            //plug in your variables/numbers in the corosponding spot
                 System.out.println(first * second);
         }
             public static void division (int divided, int divider){
+            //plug in your variables/numbers in the corosponding spot
                 System.out.println(divided / divider);
         } 
             public static void perimeterform (double length, double width){
+            //plug in your variables/numbers in the corosponding spot
                 double lengthx2 = length * 2;
                 double widthx2 = width * 2;
                 System.out.println(lengthx2 + widthx2);
         }
             public static void interiorangles (int sides){
+            //plug in your variables/numbers in the corosponding spot
                 int n = sides;
                 int sum = (n - 2) * 180;
                 System.out.println(sum);
         }
             public static void exteriorangles (int sides){
+            //plug in your variables/numbers in the corosponding spot
                 int n = sides;
                 int sum = 360 / n;
                 System.out.println(sum);
