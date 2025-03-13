@@ -1,6 +1,6 @@
 public class Equations {
     private static final double PI = 3.14;
-    
+
         static void slopeFormula(double X1, double X2, double Y1, double Y2) {
             // plug in your variables in the corosponding spot 
                 double x1 = X1;
@@ -101,13 +101,14 @@ public class Equations {
             public static void interiorangles (int sides){
             //plug in your variables/numbers in the corosponding spot
                 int n = sides;
-                int sum = (n - 2) * 180;
-                System.out.println(sum);
+                int sum4ia = (n - 2) * 180;
+                System.out.println(sum4ia);
         }
             public static void exteriorangles (int sides){
             //plug in your variables/numbers in the corosponding spot
                 int n = sides;
-                int sum = 360 / n;
-                System.out.println(sum);
+                int sum4ex = 360 / n;
+                System.out.println(sum4ex);    
         }
+            
     }
