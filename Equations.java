@@ -110,5 +110,9 @@ public class Equations {
                 int sum4ex = 360 / n;
                 System.out.println(sum4ex);    
         }
-            
+            public static void SinFinder (double angleInDegrees){
+                double angleInDegrees = double angleindegrees;
+                double angleinradian = Math.toRadians(angleindegrees);
+                double sinValue = Math.sin(angleinradian);
+                System.out.prinln("The Sin of " + angleInDegrees + "is: " + sinValue); 
     }

@@ -34,6 +34,11 @@ public class Main extends Equations  {
                         // addition(0, 0, 0, 0);
                         // subtraction(0, 0);
                         // multiplication(0, 0);
-                        division(15, 5);
+                        // division(0, 0);
+                
+                // Trig
+                        SinFinder(10) 
+                        // Cos
+                        // Tan
         }
 }
