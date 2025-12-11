@@ -41,6 +41,6 @@ public class Main extends Equations  {
                         // Cos
                         // Tan
                 // Mr.Forde
-                        QuadEquation(1,12,85); 
+                        QuadEquation(10,12,-89); 
         }
 }

@@ -111,6 +111,7 @@ public class Equations {
                 System.out.println(sum4ex);    
         }
               public static void SinFinder (double angleInDegrees){
+            //plug in your variables/numbers in the corosponding spot 
                 double anglendegrees = angleInDegrees ; 
                 double angleinradian = Math.toRadians(anglendegrees);
                 double sinValue = Math.sin(angleinradian);
@@ -118,6 +119,7 @@ public class Equations {
     
         }
             public static void QuadEquation (double quadVarA, double quadVarB, double quadVarC){
+            //plug in your variables/numbers in the corosponding spot
                 double discriminat = quadVarB * quadVarB - 4 * quadVarA * quadVarC;
 
                 if (discriminat < 0){
@@ -125,9 +127,11 @@ public class Equations {
                 } else {
                     double root1 = (-quadVarB + Math.sqrt(discriminat)) / (2 * quadVarA);
                     double root2 = (-quadVarB - Math.sqrt(discriminat)) / (2 * quadVarA);
+                    double root1Rounded = Math.round(root1 * 100.0) / 100.0;
+                    double root2Rounded = Math.round(root2 * 100.0) / 100.0;
 
-                    System.out.println("Root 1: " + root1);
-                    System.out.println("Root 2; " + root2);
+                    System.out.println("Root 1: " + root1Rounded);
+                    System.out.println("Root 2: " + root2Rounded);
                 }
         }
 }
