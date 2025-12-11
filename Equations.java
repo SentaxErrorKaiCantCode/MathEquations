@@ -110,9 +110,25 @@ public class Equations {
                 int sum4ex = 360 / n;
                 System.out.println(sum4ex);    
         }
-            public static void SinFinder (double angleInDegrees){
-                double angleInDegrees = double angleindegrees;
-                double angleinradian = Math.toRadians(angleindegrees);
+              public static void SinFinder (double angleInDegrees){
+                double anglendegrees = angleInDegrees ; 
+                double angleinradian = Math.toRadians(anglendegrees);
                 double sinValue = Math.sin(angleinradian);
-                System.out.prinln("The Sin of " + angleInDegrees + "is: " + sinValue); 
-    }
+                System.out.println("The Sin of " + anglendegrees + "is: " + sinValue); 
+    
+        }
+            public static void QuadEquation (double quadVarA, double quadVarB, double quadVarC){
+                double discriminat = quadVarB * quadVarB - 4 * quadVarA * quadVarC;
+
+                if (discriminat < 0){
+                    System.out.println("No solution nigga");
+                } else {
+                    double root1 = (-quadVarB + Math.sqrt(discriminat)) / (2 * quadVarA);
+                    double root2 = (-quadVarB - Math.sqrt(discriminat)) / (2 * quadVarA);
+
+                    System.out.println("Root 1: " + root1);
+                    System.out.println("Root 2; " + root2);
+                }
+        }
+}
+

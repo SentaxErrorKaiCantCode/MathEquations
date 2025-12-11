@@ -37,8 +37,10 @@ public class Main extends Equations  {
                         // division(0, 0);
                 
                 // Trig
-                        SinFinder(10) 
+                        // SinFinder(10) 
                         // Cos
                         // Tan
+                // Mr.Forde
+                        QuadEquation(1,12,85); 
         }
 }
